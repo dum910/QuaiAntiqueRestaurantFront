@@ -11990,14 +11990,22 @@ p {
 .hero-scene::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 300px;
   background-image: url(../Images/Gestion-restaurant-gastronomique.jpg);
+  background-position: center;
   background-size: cover;
   filter: brightness(0.3);
 }
 .hero-scene * {
   position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
