@@ -37,6 +37,7 @@
             * {
                 //Positionner les éléments devant le ::before
                 position: relative;
+                margin-bottom: 15px;
             }
             .hero-scene-content {
                 height: 300px;
@@ -72,4 +73,8 @@
                 opacity: 0;
                 transition: all 0.3s;
             }
+        }
+        
+        .form-label {
+            color: $primary;
         }
